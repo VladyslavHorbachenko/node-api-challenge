@@ -85,7 +85,7 @@ The description of the structure and extra information about each _resource_ sto
 
 ### Database Persistence Helpers
 
-The `/data/helpers` folder includes files you can use to manage the persistence of _project_ and _action_ data. These files are `projectModel.js` and `actionModel.js`. Both files publish the following api, which you can use to store, modify and retrieve each resource:
+The `/data/helpers` folder includes files you can use to manage the persistence of _project_ and _action_ data. These files are `projectModel.js` and `projectModel.js`. Both files publish the following api, which you can use to store, modify and retrieve each resource:
 
 **All these helper methods return a promise. Remember to use .then().catch() or async/await.**
 
